@@ -55,3 +55,8 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['api/v1/mahasiswa'] = 'api/GetMahasiswa/index';
 $route['api/v1/mahasiswa/nrp/(:any)'] = 'api/GetMahasiswa/MahasiswaById/$1';
+$route['api/v1/mahasiswa/add'] = 'api/GetMahasiswa/AddMahasiswa';
+$route['api/v1/mahasiswa/update/(:any)'] = 'api/GetMahasiswa/UpdateMahasiswa/$1';
+$route['api/v1/mahasiswa/delete/(:any)'] = 'api/GetMahasiswa/DeleteMahasiswa/$1';
+
+$route['mahasiswa'] = 'Mahasiswa/index';
